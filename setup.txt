@@ -1,0 +1,10 @@
+// update npm 9.4
+sudo npm install --global npm 
+npm -v
+// update node to latest 19
+sudo npm install --global node 
+node --version
+
+npm install
+docker build . -t wci/node-web-app
+docker run -p 12345:8080 wci/node-web-app

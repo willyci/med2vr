@@ -1,25 +1,13 @@
 {
-  "name": "templateforv2-static",
+  "name": "Med2VR_web_app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "list images",
+  "author": "Willy Ci",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
-  },
-  "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
-  },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
-  "devDependencies": {},
   "dependencies": {
-    "nodemon": "^2.0.20"
+    "express": "^4.16.1"
   }
 }
