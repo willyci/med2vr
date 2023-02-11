@@ -5,6 +5,9 @@ npm -v
 sudo npm install --global node 
 node --version
 
-npm install
+
+sudo npm install
+// build docker image with name wci/node-web-app
 docker build . -t wci/node-web-app
+// start running image at localhost:12345
 docker run -p 12345:8080 wci/node-web-app
